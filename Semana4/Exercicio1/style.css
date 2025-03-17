@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+}
+form {
+  padding: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row div {
+  width: 48%;
+}
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit {
+  background-color: #4caf50;
+  color: white;
+}
+.reset {
+  background-color: #ccc;
+}
